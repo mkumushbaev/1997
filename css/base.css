@@ -1,0 +1,24 @@
+.none{
+    display: none !important;
+}
+.visual-hidden{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #f9fbe7;
+    color: #fff;
+}

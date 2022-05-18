@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Charl";
+    src: url(/fonts/CharlemagneStd-Bold.otf);
+}
+@font-face {
+    font-family: "Futura";
+    src: url(/fonts/FuturaPT-Heavy.woff);
+}
+
+.header{
+    padding-top: 6px; 
+    padding-bottom: 6px;
+    background-color: #111111;
+}
+
+.header-container{
+    width: 1200px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{  
+    font-family: "Charl";
+    font-size: 32px;
+    padding-top: 9px;
+}
+
+.header-nav {
+    font-size: 18px;
+    font-family: "Futura";
+}
+
+.header-nav ul{
+    display: flex; 
+}
+
+.header-nav li+li{
+    margin-left: 40px;
+}
+
+.header-nav a:hover{
+    border-bottom: 1.5px solid #fff;  
+}
+
+.header-login {
+
+}
+
